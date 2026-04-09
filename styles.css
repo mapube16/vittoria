@@ -4,7 +4,8 @@
 
 /* ----- Custom Properties ----- */
 :root {
-  --clr-bg: #faf9f7;
+  --clr-white: #ffffff;
+  --clr-error: #c0392b;
   --clr-surface: #ffffff;
   --clr-gold: #c9a84c;
   --clr-gold-light: #e8c97a;
@@ -154,7 +155,7 @@ em {
 
 .btn--primary {
   background: var(--clr-gold);
-  color: #fff;
+  color: var(--clr-white);
   box-shadow: 0 4px 20px rgba(201, 168, 76, 0.35);
 }
 
@@ -597,7 +598,7 @@ em {
   font-family: var(--ff-display);
   font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
-  color: #fff;
+  color: var(--clr-white);
   flex-shrink: 0;
 }
 

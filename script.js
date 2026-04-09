@@ -44,7 +44,7 @@
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(
       function (entries) {
-        entries.forEach(function (entry, idx) {
+        entries.forEach(function (entry) {
           if (entry.isIntersecting) {
             // Stagger animation delay based on element index within its parent
             const siblings = Array.from(entry.target.parentElement.children);
@@ -129,7 +129,7 @@
       // Basic validation
       if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         emailInput.focus();
-        emailInput.style.outline = '2px solid #c0392b';
+        emailInput.style.outline = '2px solid var(--clr-error)';
         setTimeout(function () {
           emailInput.style.outline = '';
         }, 2000);
