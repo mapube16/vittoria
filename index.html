@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vittoria – Elevate every moment. Discover our premium collection crafted with passion and precision." />
+  <title>Vittoria</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Vittoria</a>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <span class="hero__tag">Welcome to Vittoria</span>
+        <h1 class="hero__title">Elevate Every<br /><em>Moment</em></h1>
+        <p class="hero__description">
+          Vittoria is built for those who refuse to settle. Crafted with passion,
+          precision, and an unwavering commitment to excellence.
+        </p>
+        <div class="hero__actions">
+          <a href="#features" class="btn btn--primary">Discover More</a>
+          <a href="#contact" class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__image">
+          <div class="about__image-box">
+            <div class="about__image-inner"></div>
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="section__tag">Our Story</span>
+          <h2 class="section__title">Born from a passion<br />for <em>victory</em></h2>
+          <p class="about__body">
+            Vittoria — Italian for victory — is more than a name. It's our promise.
+            We believe that every product, every experience, every interaction
+            should feel like a win for the people we serve.
+          </p>
+          <p class="about__body">
+            From humble beginnings to a brand trusted worldwide, our journey has
+            always been guided by quality, creativity, and genuine care for our
+            community.
+          </p>
+          <a href="#features" class="btn btn--primary">What We Offer</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Why Vittoria</span>
+          <h2 class="section__title">Everything you need,<br />nothing you don't</h2>
+        </div>
+        <div class="features__grid">
+          <div class="feature-card" data-animate>
+            <div class="feature-card__icon">✦</div>
+            <h3 class="feature-card__title">Premium Quality</h3>
+            <p class="feature-card__body">
+              Every detail is scrutinised and refined. We hold ourselves to the
+              highest standard so you don't have to compromise.
+            </p>
+          </div>
+          <div class="feature-card" data-animate>
+            <div class="feature-card__icon">◈</div>
+            <h3 class="feature-card__title">Timeless Design</h3>
+            <p class="feature-card__body">
+              Trends fade. Our aesthetic is built to endure — clean lines,
+              considered form, and lasting appeal.
+            </p>
+          </div>
+          <div class="feature-card" data-animate>
+            <div class="feature-card__icon">⬡</div>
+            <h3 class="feature-card__title">Sustainable Values</h3>
+            <p class="feature-card__body">
+              We source responsibly and operate mindfully, because victory
+              means nothing if the world suffers for it.
+            </p>
+          </div>
+          <div class="feature-card" data-animate>
+            <div class="feature-card__icon">◎</div>
+            <h3 class="feature-card__title">Community First</h3>
+            <p class="feature-card__body">
+              Our customers aren't transactions — they're the reason we exist.
+              Your success drives everything we do.
+            </p>
+          </div>
+          <div class="feature-card" data-animate>
+            <div class="feature-card__icon">⟡</div>
+            <h3 class="feature-card__title">Expert Support</h3>
+            <p class="feature-card__body">
+              A dedicated team ready to help whenever you need it. Fast,
+              friendly, and genuinely knowledgeable.
+            </p>
+          </div>
+          <div class="feature-card" data-animate>
+            <div class="feature-card__icon">❋</div>
+            <h3 class="feature-card__title">Continuous Growth</h3>
+            <p class="feature-card__body">
+              We never stop improving. New ideas, new features, new ways to
+              help you achieve more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat">
+          <span class="stat__number" data-target="12000">0</span><span class="stat__suffix">+</span>
+          <p class="stat__label">Happy Customers</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="98">0</span><span class="stat__suffix">%</span>
+          <p class="stat__label">Satisfaction Rate</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="45">0</span><span class="stat__suffix">+</span>
+          <p class="stat__label">Countries Served</p>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="7">0</span>
+          <p class="stat__label">Years of Excellence</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Testimonials</span>
+          <h2 class="section__title">Words from our<br /><em>community</em></h2>
+        </div>
+        <div class="testimonials__grid">
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">
+              "Vittoria completely changed the way I approach my work. The quality
+              is exceptional and the team behind it clearly cares deeply."
+            </p>
+            <footer class="testimonial-card__author">
+              <div class="testimonial-card__avatar">S</div>
+              <div>
+                <strong>Sofia Marchetti</strong>
+                <span>Creative Director, Milan</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">
+              "I've tried countless alternatives and nothing comes close. The
+              attention to detail is extraordinary. Vittoria is in a league of its own."
+            </p>
+            <footer class="testimonial-card__author">
+              <div class="testimonial-card__avatar">J</div>
+              <div>
+                <strong>James Okafor</strong>
+                <span>Entrepreneur, Lagos</span>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">
+              "From first purchase to ongoing support, every touchpoint has been
+              flawless. This is what a premium brand truly looks like."
+            </p>
+            <footer class="testimonial-card__author">
+              <div class="testimonial-card__avatar">A</div>
+              <div>
+                <strong>Anika Reyes</strong>
+                <span>Product Manager, São Paulo</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section" id="contact">
+      <div class="container cta__inner">
+        <span class="section__tag">Get Started</span>
+        <h2 class="section__title">Ready to experience<br /><em>Vittoria</em>?</h2>
+        <p class="cta__body">
+          Join thousands of people who have already discovered the difference.
+          Your victory starts here.
+        </p>
+        <form class="cta__form" id="cta-form" novalidate>
+          <div class="cta__form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="cta__input"
+              placeholder="Enter your email address"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn--primary">Join the Waitlist</button>
+          </div>
+          <p class="cta__disclaimer">No spam. Unsubscribe at any time.</p>
+          <p class="cta__success" id="form-success" aria-live="polite" hidden>
+            🎉 You're on the list! We'll be in touch soon.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="footer__logo">Vittoria</a>
+      <p class="footer__tagline">Elevate every moment.</p>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#features" class="footer__link">Features</a>
+        <a href="#testimonials" class="footer__link">Testimonials</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="year"></span> Vittoria. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
